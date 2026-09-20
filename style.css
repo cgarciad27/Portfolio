@@ -278,6 +278,40 @@ nav ul li a:hover {
 
 
 
+/* certifications */
+.certifications {
+    padding: 40px 0;
+    background: #d83a3a;
+    scroll-margin-top: 80px;
+}
+.certifications h2 {
+    text-align: center;
+    font-size: 40px;
+    margin-bottom: 40px;
+}
+.certifications-container {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    flex-wrap: wrap;
+}
+.certification-box {
+    width: 500px;
+    padding: 25px;
+    border: 1px solid #000000;
+    border-radius: 10px;
+    background-color: rgb(0, 0, 0);
+}
+.certification-box h3 {
+    margin-top: 0;
+}
+.certification-box img {
+    width: 60%;
+    margin-top: 20px;
+    border-radius: 10px;
+}
+
+
 
 
 
@@ -286,7 +320,7 @@ nav ul li a:hover {
 .skills {
     text-align: center;
     padding: 100px 8%;
-    background: #d83a3a;
+    background-color: rgb(222, 65, 63);
     min-height: 100vh;
     display: flex;
     flex-direction: column;
